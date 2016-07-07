@@ -9,4 +9,8 @@ Combining WebRTC with simple-peer (to connect two users), the goal of this proje
 * In your browser navigate to localhost:9966/#init (wait a moment and this will automatically create a SDP that will be             used to connect our users).
 * Now open another window in your browser and navigate to localhost:9966 and paste the SDP from the #init page into the window that says "otherID".
 * Click the connect button, copy the new SDP and then paste that into the 'otherID' field on the #init page.
-* Now that your users are connected you just need to allow access to you computer's camera and you should then be connected. 
+* After pasting the SDP, press the connect button and your users will be connected. You just need to allow access to you computer's camera and you should then be connected.
+
+If you don't have a camera, once connected you can also send text messages back and forth and will see them displayed below the text areas.
+
+It's insane how fast and easy it is to make this connection between users.  I'm going to keep working on this project and hopefully bring socket.io and Angular into the mix as well.  Happy Coding!
