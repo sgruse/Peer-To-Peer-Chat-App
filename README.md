@@ -1,7 +1,7 @@
 # Peer To Peer Chat App With WebRTC, Node and Simple-peer
 
 WebRTC utilizes simple Javascript API's to provide browsers with Real-Time communication.  
-Combining WebRTC with simple-peer (to connect two users), the goal of this project is to make a simple chat app and later bring in socketIO.  I found some great tutorials to help me do this, check out this video by Kyle Young: https://www.youtube.com/watch?v=ieBtXwHvoNk.
+Combining WebRTC with simple-peer (to connect two users), the goal of this project is to make a simple chat app and later bring in socket.io  I found some great tutorials to help me do this, check out this video by Kyle Young: https://www.youtube.com/watch?v=ieBtXwHvoNk.
 
 ###Instructions
 * Begin by running npm install to get the dependencies.
